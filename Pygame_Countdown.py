@@ -3,7 +3,7 @@
 # Harry Beadle
 # Pygame Countdown
 
-import pygame, time, urllib
+import pygame, time
 
 # Get the total time in the format [Hours, Minutes, Seconds]
 TotalTime = str(raw_input("Timer length (HH:MM:SS):\n")).split(':')
