@@ -53,7 +53,7 @@ except:
 # Run the Timer
 while TotalTimeSeconds > 0:
     Check_for_Quit()
-    if TotalTimeSeconds <= 60:
+    if TotalTimeSeconds <= 30:
         stdscr.fill((255,4.25*TotalTimeSeconds,4.25*TotalTimeSeconds))
     else:
         stdscr.fill((255,255,255))
